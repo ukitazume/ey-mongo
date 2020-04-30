@@ -12,7 +12,7 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0.rc1'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.4.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
@@ -30,7 +30,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc',          group: :doc, require: false
+gem 'sdoc', '>= 1.0.0', group: :doc, require: false
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/jonleighton/spring
 gem 'spring',        group: :development
