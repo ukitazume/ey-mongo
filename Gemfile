@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 6.0.3.5', github: 'rails/rails'
 gem 'rails'
 gem "mongoid", "~> 4.0.0.beta1"
 
